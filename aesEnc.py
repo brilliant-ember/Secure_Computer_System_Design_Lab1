@@ -3,7 +3,7 @@ from Crypto.Random import get_random_bytes
 
 key_path = "./key"
 key_file = open(key_path, "wb")
-key = get_random_bytes(16)
+key = get_random_bytes(16) #16 bytes *8 = number of bits (byte =8)
 key_file.write(key)
 print("Generated and wrote the key to the key file")
 key_file.close()
