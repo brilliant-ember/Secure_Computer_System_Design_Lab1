@@ -1,9 +1,9 @@
 # Secure_Computer_System_Design_Lab1
 
 All dependencies are stored in a virtual env, so it is enough to just have python3 for running the code, just make sure to run it with with virtual env turned on,
-$ source env/bin/activate
+`$ source env/bin/activate`
 
-The aesEnc.py uses AES (Advanced Encryption Standard), which is a symmetric block cipher standardized by NIST . It has a fixed data block size of 16 bytes. Its keys can be 128, 192, or 256 bits long.AES is imported through the PyCryptDome Library to encrypt the hard-coded string stored in the variable secret and create a key for decryption.
+The aesEnc.py uses AES (Advanced Encryption Standard), which is a symmetric block cipher standardized by NIST. It has a fixed data block size of 16 bytes. Its keys can be 128, 192, or 256 bits long.AES is imported through the PyCryptDome Library to encrypt the hard-coded string stored in the variable secret and create a key for decryption.
 
 Running aesEnc.py will generate a key and an encrypted.bin file. The key is 16 bytes, which provides good security level provided our threat model. The key is stored in the same directory in a file called "key".
 
